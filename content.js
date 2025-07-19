@@ -1,4 +1,4 @@
-console.log("✅ content.js loaded");
+console.log("content.js loaded");
 
 function showSections() {
   const sections = document.querySelectorAll('.mobile-rib-section, .desktop-distinct-section');
@@ -6,7 +6,7 @@ function showSections() {
     section.style.display = 'block';
   });
   if (sections.length > 0) {
-    console.log(`✅ Applied display:block to ${sections.length} section(s)`);
+    console.log(`Applied display:block to ${sections.length} section(s)`);
   }
 }
 
