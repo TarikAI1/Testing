@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sections",
+  "version": "0.1",
+  "description": "///",
+  "content_scripts": [
+    {
+      "matches": ["https://app.heartex.com/projects/*/labeling*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
