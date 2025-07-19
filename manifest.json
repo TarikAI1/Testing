@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Sections",
-  "version": "0.1",
-  "description": "///",
+  "name": "All Sections",
+  "version": "1.0",
+  "description": "Automatically reveals all desktop and mobile sections.",
   "content_scripts": [
     {
       "matches": ["https://app.heartex.com/projects/*/labeling*"],
